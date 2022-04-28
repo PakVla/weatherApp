@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="620.0" style="-fx-background-color: black; -fx-border-color: black; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weatherapp.WeatherController">
+   <children>
+      <TextField fx:id="textCity" alignment="CENTER" layoutX="11.0" layoutY="70.0" prefHeight="34.0" prefWidth="286.0" promptText="Введите город" style="-fx-background-color: white;">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Text fill="WHITE" layoutX="185.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Погода!" textAlignment="CENTER" wrappingWidth="247.6708984375">
+         <font>
+            <Font name="Arial Bold" size="33.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnFindData" alignment="CENTER" layoutX="11.0" layoutY="129.0" mnemonicParsing="false" prefHeight="146.0" prefWidth="286.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 40; -fx-border-width: 10;" text="Узнать погоду" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Button>
+      <Text fill="#ff4848" layoutX="321.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация" textAlignment="CENTER" wrappingWidth="286.0">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="tempNow" fill="WHITE" layoutX="321.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Холод\Тепло" textAlignment="CENTER" wrappingWidth="286.0">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="tempFact" fill="WHITE" layoutX="321.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="По ощущениям" textAlignment="CENTER" wrappingWidth="286.0">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="tempMinMax" fill="WHITE" layoutX="321.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min\Max" textAlignment="CENTER" wrappingWidth="286.0">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="windSpeed" fill="WHITE" layoutX="321.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Скорость ветра" textAlignment="CENTER" wrappingWidth="286.0">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
